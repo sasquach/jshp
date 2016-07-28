@@ -1,0 +1,21 @@
+{
+  "name": "JS-HAS-POWER",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "dependencies": {
+    "lorem-ipsum": "^1.0.3",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-router": "^3.0.0"
+  }
+}

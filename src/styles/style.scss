@@ -1,0 +1,56 @@
+html, body {
+    background-color: #FFF9EC;
+    color: #0D1D1C;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.c-app {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: auto;
+    font-family: Helvetica;
+}
+
+.c-header {
+    flex: 0 0 100%;
+    border-bottom: 1px solid silver;
+    padding: .5em;
+
+    &__logo {
+        display: inline-block;
+        max-height: 70px;
+    }
+
+    &__text {
+        display: inline-block;
+        margin: 0 0 0 .5em;
+        position: relative;
+        bottom: 25px;
+        color: #009A92;
+
+    }
+}
+
+.l-sidebar {
+    flex: 25%;
+    border-right: 1px solid silver;
+    padding: 1em;
+}
+
+.l-main {
+    flex: 75%;
+    padding: 1em;
+}
+
+.c-entries {
+    flex: 75%;
+    padding: 1em;
+}
+
+.h-active {
+    font-weight: 700;
+}
