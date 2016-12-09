@@ -1,0 +1,5 @@
+export const NEW_POST = 'NEW_POST';
+export const UPDATE_POST = 'UPDATE_POST';
+export const DELETE_POST = 'DELETE_POST';
+export const SET_AUTHOR_FILTER = 'SET_AUTHOR_FILTER';
+export const SET_CATEGORY_FILTER = 'SET_CATEGORY_FILTER';
